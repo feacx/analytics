@@ -1,0 +1,15 @@
+{
+  "name": "analytics",
+  "version": "1.0.0",
+  "description": "monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "type": "module",
+  "author": "Fea.cx",
+  "license": "ISC"
+}
