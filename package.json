@@ -2,14 +2,20 @@
   "name": "miniprogram-minitor",
   "version": "1.0.0",
   "description": "miniprogram-minitor",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/main.d.ts",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "keywords": [
     "miniprogram-minitor"
   ],
   "type": "module",
   "author": "Fea.cx",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
