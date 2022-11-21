@@ -1,13 +1,13 @@
 {
-  "name": "analytics",
+  "name": "miniprogram-minitor",
   "version": "1.0.0",
-  "description": "monitor",
+  "description": "miniprogram-minitor",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
-    "analytics"
+    "miniprogram-minitor"
   ],
   "type": "module",
   "author": "Fea.cx",
